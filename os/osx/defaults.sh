@@ -92,13 +92,13 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input
 ###############################################################################
 
-echo ""
-echo "Increasing sound quality for Bluetooth headphones/headsets"
-defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
+# echo ""
+# echo "Increasing sound quality for Bluetooth headphones/headsets"
+# defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
 
-echo ""
-echo "Enabling full keyboard access for all controls (e.g. enable Tab in modal dialogs)"
-defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+# echo ""
+# echo "Enabling full keyboard access for all controls (e.g. enable Tab in modal dialogs)"
+# defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
 # echo ""
 # echo "Disabling press-and-hold for keys in favor of a key repeat"
