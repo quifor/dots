@@ -16,7 +16,7 @@ fi
 osx="$os/osx"
 
 # Run each program
-#sh "$osx/defaults.sh"
+sh "$osx/defaults.sh"
 sh "$osx/binaries.sh"
 sh "$osx/apps.sh"
 
